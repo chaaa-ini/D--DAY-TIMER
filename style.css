@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Kanit:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=Kanit:ital,wght@1,300&family=Pacifico&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(photo-1491864483946-1f06be97b71d.webp);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  font-family: "Pacifico", cursive;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 18px;
+  margin-top: 0%;
+
+  text-align: center;
+}
+
+.time h2 {
+  font-weight: bold;
+  font-size: 80px;
+  margin: 10px;
+  margin-top: -20px;
+}
+
+.time h4 {
+  margin: 0;
+  font-size: 15px;
+  font-family: "Pacifico", cursive;
+  font-weight: bolder;
+}
