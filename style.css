@@ -4,7 +4,10 @@
 * {
   box-sizing: border-box;
 }
-
+html {
+  font-size: 62.5%;
+  user-select: none;
+}
 body {
   background-image: url(photo-1491864483946-1f06be97b71d.webp);
   object-fit: cover;
@@ -26,7 +29,7 @@ body {
 
 h1 {
   font-family: "Pacifico", cursive;
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: lighter;
   margin: 0;
 }
@@ -36,7 +39,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 18px;
+  margin: 2rem;
   margin-top: 0%;
 
   text-align: center;
@@ -44,14 +47,32 @@ h1 {
 
 .time h2 {
   font-weight: bold;
-  font-size: 80px;
-  margin: 10px;
-  margin-top: -20px;
+  font-size: 8rem;
+  margin: 1rem;
+  margin-top: -2rem;
 }
 
 .time h4 {
   margin: 0;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-family: "Pacifico", cursive;
   font-weight: bolder;
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 40%;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+  body {
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
 }
